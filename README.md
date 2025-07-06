@@ -1,26 +1,21 @@
-<div align="center">
-  <img src="./preview.jpg" alt="FortiX Conky Preview" width="300"/>
-  <h1>🛡️ FortiX-Conky</h1>
-  <p>Monitor de sistema minimalista para <strong>FortiX OS</strong> — ligero, funcional y elegante.</p>
-</div>
+# FortiX-Conky
 
----
+Conky personalizado para la distro **FortiX**.
 
-## 📌 Descripción
+📊 **Monitorea:**
+- Uso de CPU
+- RAM
+- Disco
+- Red (Up/Down)
+- Batería
+- Temperatura
 
-**FortiX-Conky** es la configuración oficial de **Conky** para la distro **FortiX OS**.  
-Muestra información clave del sistema (CPU, RAM, disco, red, batería, temperatura) de forma clara y amigable, con estética acorde a los fondos de pantalla FortiX.
+🖼️ **Vista previa:**
 
----
+![Preview](preview.jpg)
 
-## 🖥️ Vista previa
+## Instalación
 
-> 
-
----
-
-## ⚙️ Requisitos
-
-- **Conky** instalado:
-  ```bash
-  sudo apt install conky-all
+1. Clonar este repo:
+   ```bash
+   git clone https://github.com/FreDev33/FortiX-Conky.git
