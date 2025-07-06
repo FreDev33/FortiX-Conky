@@ -1,21 +1,33 @@
-# FortiX-Conky
+# 🛡️ FortiX-Conky
 
-Conky personalizado para la distro **FortiX**.
+Conky **ligero y elegante** diseñado especialmente para **FortiX Linux**.  
+Monitorea en tiempo real tu equipo sin consumir recursos.
 
-📊 **Monitorea:**
-- Uso de CPU
-- RAM
-- Disco
-- Red (Up/Down)
-- Batería
-- Temperatura
+---
 
-🖼️ **Vista previa:**
+## 📊 ¿Qué muestra?
+
+- 🧩 **CPU**
+- 📈 **RAM**
+- 💾 **Disco**
+- 🌐 **Red (subida/bajada)**
+- 🔋 **Batería**
+- 🌡️ **Temperatura**
+- 🕒 **Hora y fecha**
+- ⚙️ Compatible con zzz-icewm
+
+---
+
+## 🖼️ Vista previa
+
+> 👉 *Agregá una captura* — `preview.jpg` — y se verá acá:
 
 ![Preview](preview.jpg)
 
-## Instalación
+---
 
-1. Clonar este repo:
-   ```bash
-   git clone https://github.com/FreDev33/FortiX-Conky.git
+## 🚀 Instalación
+
+1️⃣ **Clonar el repositorio**
+```bash
+git clone https://github.com/FreDev33/FortiX-Conky.git
