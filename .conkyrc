@@ -1,0 +1,44 @@
+background yes
+update_interval 1
+double_buffer yes
+no_buffers yes
+text_buffer_size 256
+
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_argb_visual yes
+own_window_argb_value 150
+
+alignment top_right
+gap_x 30
+gap_y 30
+minimum_width 180
+
+draw_shades no
+draw_outline no
+draw_borders yes
+border_width 2
+border_inner_margin 15
+
+use_xft yes
+xftfont DejaVu Sans:size=10
+default_color white
+
+uppercase no
+
+TEXT
+${alignc}${font DejaVu Sans:bold:size=12}FortiX
+${alignc}${font DejaVu Sans:size=10}${time %H:%M:%S}
+${alignc}${time %A, %d %b %Y}
+
+CPU: ${cpu}% ${cpubar 6,140}
+RAM: $mem/$memmax ${membar 6,140}
+DISK: ${fs_used /}/${fs_size /} ${fs_bar 6,140}
+
+UP: ${upspeedf wlan0} KB/s ${upspeedgraph wlan0 20,140 FFFFFF FFFFFF}
+DOWN: ${downspeedf wlan0} KB/s ${downspeedgraph wlan0 20,140 FFFFFF FFFFFF}
+
+BATTERY: ${battery_percent BAT1}% ${battery_bar 6,140}
+
+TEMP: ${exec sensors | grep 'temp1' | awk '{print $2}'}
