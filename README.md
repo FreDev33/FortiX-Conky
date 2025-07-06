@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./preview.png" alt="FortiX Conky Preview" width="300"/>
+  <img src="./preview.jpg" alt="FortiX Conky Preview" width="300"/>
   <h1>🛡️ FortiX-Conky</h1>
   <p>Monitor de sistema minimalista para <strong>FortiX OS</strong> — ligero, funcional y elegante.</p>
 </div>
@@ -15,7 +15,7 @@ Muestra información clave del sistema (CPU, RAM, disco, red, batería, temperat
 
 ## 🖥️ Vista previa
 
-> _Subí una captura de pantalla `preview.png` para que la gente vea cómo se ve._
+> 
 
 ---
 
